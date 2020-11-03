@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password checker</title>
+
+
+    <!-- librery -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="libraries/icofont/icofont.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+</head>
+    <nav  class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="#">SecurityChecker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" style="font-size: 20px;color: white; opacity: 0.9;">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 20px; color: white;opacity: 0.9;">Contact us</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" style="font-size: 20px; color: white;opacity: 0.9;">Home Security</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <section>
+
+    
+          <div class="home">
+              <h1 style="text-align: center; padding: 5rem; font-weight: 700;">
+                How Secure Is My Password?
+              </h1>
+              <form>
+                <div class="form-group text-center" style="text-align: center;justify-content: center; padding: 60px;">
+                  <label for="exampleInputPassword1" style="text-align: center;">Enter Your Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1"style="padding">
+                  <button id="btnsubmit" type="submit" class="btn btn-primary" style="margin-top: 1rem;">Submit</button>
+                </div>
+                
+              </form>
+          </div>
+
+    </section>
+
+
+
+
+
+
+
+<section id="contactus" class="offset" style="background: rgba(0, 0, 0, 0.856); color: white ; padding: 9rem;">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-6 col-sm-14">
+          <p style="text-align: justify;">We Answer your password is secure or not with our vulernabity check,check your password and secure your self datas</p>
+          <a href="#" target="_blank"><img src="images/icons8-facebook-48.png" alt="email"
+              style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8;  color: black; "></a>
+          <a href="#" target="_blank"><img src="images/icons8-instagram-48.png" alt="fb"
+              style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8; color: black;"></a>
+          <a href="#" target="_blank"><img src="images/icons8-twitter-48.png" alt="insta"
+              style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8;  color: black;"></a>
+         <a href="#" target="_blank"><img src="images/icons8-github-48.png" alt="insta"
+                style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8;  color: black;"></a>
+         <a href="#" target="_blank"><img src="images/icons8-google-48.png" alt="insta"
+                style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8;  color: black;"></a>
+          <a href="#" target="_blank"><img src="images/icons8-google-play-48.png" alt="insta"
+               style="padding: 5px; border-radius: 10px; width: 40px; opacity: 0.8;  color: black;"></a>
+        </div>
+        <!--  -->
+
+        <div class="col-md-6 ">
+          <h6 style="text-align: justify;">Contact Us</h6>
+          <p style="text-align: justify;">Phone : +04924 225566</p>
+          <p style="text-align: justify;">Email : SecurityaAlertinfo@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<!-- script -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#btnsubmit").click(function(){
+            alert("Your password is secure")
+        })
+    })
+</script>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,184 @@
+body
+{
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif; font-weight: 700;
+    background: rgb(71, 63, 63); 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+.container {
+    text-align: center;
+    justify-content: center;
+    
+}
+.row{
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.offset:before {
+    height: 5rem;
+    margin-top: -5rem;
+    content: "";
+    display: block;
+
+}
+.jambotron {
+    border-radius: 0;
+    padding: 3rem 0 2rem;
+    margin-bottom: 0;
+    text-align: center;
+    justify-content: center;
+}
+.col-12 h3 {
+    padding: 2rem 0 2rem 0;
+
+} 
+
+  /*  */
+
+  .top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+    
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      margin: 0 3em 3em 0;
+      border-radius: 50%;
+      padding: .25em;
+      width: 50px;
+      height: 50px;
+
+  }
+  .top-link img {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    transition: all .25s ease-in-out;
+    background: #28a745;
+    border-radius: 30px;
+    padding: 15px;
+    padding-top: 16px;
+    scroll-behavior: smooth;
+    transform: 2s;
+    opacity: .8;
+    right: 40px;
+    bottom: 40px;
+    cursor: pointer;
+    box-shadow: -1px 10px 40px -12px rgba(0, 0, 0, 0.849);
+  }
+  .top-link img:hover {
+      opacity: 1;
+  }
+  
+  /*  */
+
+/* nav */
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    color: black;
+    
+}
+.navbar-toggler-icon {
+    background: black;
+}
+.navbar-brand {
+    height: 2rem;
+    font-family: 'Merienda One', cursive;
+    justify-content: center;
+}
+.navbar-nav li {
+    padding-right: .7rem;
+    
+
+}
+.navbar-nav li a {
+    color: white;
+    font-weight: 600;
+    opacity: 0.8;
+    padding: 2rem;
+}
+.navbar-nav li a:active {
+    color:white;
+}
+.navbar-nav li a:hover {
+    color:white;
+}
+/* nav end */
+/* slider */
+.slide-h3 {
+    font-size: 50px;
+    text-align: center;
+}
+.carousel-item{
+    background: rgba(0, 0, 0, 0.514);
+    height: 100vh;
+    /* text-align: center; */
+}
+.carousel-item img {
+    width: 20rem;
+}
+.carousel-caption {
+    position: absolute;
+    text-transform: uppercase; 
+}
+.carousel-caption h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .3rem; 
+    text-shadow: .1rem .1rem .2rem black;
+    padding: 1rem;
+
+}
+.carousel-caption p {
+    font-size: 1rem;
+    text-shadow: .1rem .1rem .2rem black;
+    padding-bottom: 1.6rem;
+}
+.carousel-inner .carousel-item img {
+    text-align: center;
+    height: 100vh;
+    justify-items: center;
+    justify-content: center;
+}
+/* kALSFOaho */
+
+#contactus {
+    min-width: fit-content;
+    min-height: 50px;
+  }
+  .social img:hover {
+      opacity: 1;
+      background: black;
+      background-color: black;
+  }
+  .col-md-6 p {
+      font-size: 15px;
+      opacity: 0.8;
+  }
+  .col-md-6 p:hover{
+  opacity: 1;
+  }
+  .col-md-6 h6 {
+      font-size: 15px;
+      opacity: 0.8;
+      font-weight: 700;
+  }
+  .col-md-6 h6:hover {
+      opacity: 1;
+  }
+  .col-md-6 a img:hover {
+      background: white;
+  }
